@@ -1,0 +1,39 @@
+.colum-6{
+    padding: 0%;
+    flex:0 0 47.4%;
+}
+    
+@media (max-width: 768px) {
+  .colum-6 {
+    flex: 0 0 100%;
+  }
+}
+
+.E-icon
+{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: var(--text-light);
+    text-align: center;
+    border-radius: 12px;
+}
+.E-ico
+{
+    line-height: 50px;
+}
+
+.fo_16
+{
+    font-size: 16px;
+    color: var(--text-muted);
+}
+.fo_20{
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.hr_line
+{
+    border: 1px solid var(--text-muted);
+}

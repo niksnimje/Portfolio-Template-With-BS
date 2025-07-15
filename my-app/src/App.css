@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #eb5d3a;
+  --background-dark: #121214;
+  --background-black: #000;
+  --text-light: #ffffff;
+  --text-muted: #9f9f9f;
+  --font-base: 'Poppins', sans-serif;
+  --border-light: hsla(0, 0%, 100%, 0.05);
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 40px;
+  --border-color:#262629;
+  --btn-radius: 15px;
+}
+
+
+body
+{
+    background-color: var(--background-black) !important;
+    font-family: var(--font-base);
+}

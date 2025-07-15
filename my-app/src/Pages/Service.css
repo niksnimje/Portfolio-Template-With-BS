@@ -1,0 +1,46 @@
+.main-box
+{
+    padding: 40px;
+}
+
+.service_box{
+    padding: 60px 40px;
+    border: 1px solid var(--text-muted);
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.service_box:hover{
+    border: 1px solid var(--primary-color);
+}
+
+.pricing_box {
+    padding: 10px;
+    border: 1px solid hsla(0,0%,100%,.15);;
+    border-radius: 10px;
+}
+
+.pricing_in_box
+{
+    padding: 10px;
+    border: 1px solid hsla(0,0%,100%,.15);;
+    border-radius: 10px;
+}
+
+.price{
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-family: Poppins, sans-serif;
+}
+.price::before
+{
+    content: "$";
+}
+.price::after
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main-color);
+    content: "/Hour";
+}
